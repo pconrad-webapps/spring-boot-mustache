@@ -1,0 +1,12 @@
+server:
+    context-path: /myapp
+
+spring:
+    main:
+       banner-mode: "off"
+
+logging:
+    level:
+       org:
+         springframework: ERROR
+	 
